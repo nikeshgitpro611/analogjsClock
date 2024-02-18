@@ -14,6 +14,7 @@ body {
   align-items: center;
   max-height: 100vh;
   position: relative;
+  margin: 60px auto;
 }
 .clock {
   width: 300px;
@@ -45,24 +46,24 @@ body {
   border-radius: 50%;
   background-color: aquamarine;
 }
-.hand{
+.hand {
   position: absolute;
   display: flex;
- justify-content: center;
- align-items: flex-end;
- color: var(--clr);
+  justify-content: center;
+  align-items: flex-end;
+  color: var(--clr);
 }
 
-.hand i{
+.hand i {
   position: absolute;
   background-color: var(--clr);
-  height: 100px;
+  height: var(--h);
   width: 4px;
 }
-.text{
- position: absolute;
+.text {
+  position: absolute;
 }
-.text i{
+.text i {
   position: inherit;
   display: flex;
   justify-content: center;
@@ -70,6 +71,6 @@ body {
   color: yellow;
   font-size: 1rem;
   letter-spacing: 3px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
